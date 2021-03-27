@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-----------------Start Html---------------->
+<html lang="en">
+  <!---------------------Head---------------------------->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TavTheDev</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  </head>
+  <!-----------------------End Head-------------------------->
+  <body>
+    <!-----------------------NavBar------------------------>
+    <nav id="navBar" class="nav">
+      <div class="logo">
+        <h1>TavTheDev</h1>
+      </div>
+
+      <div id="open">
+        <ul class="navList">
+          <li>
+            <a href="#welcome-section">About</a>
+          </li>
+          <li>
+            <a href="#contact">Work</a>
+          </li>
+          <li>
+            <a href="#contactinfo">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="Bar()" id="menu"></i>
+    </nav>
+    <!--------------------End NavBar--------------------------->
+
+    <!----------------Welcome Section---------------------->
+    <section id="welcome-section" class="welcome-section">
+      <h1>
+        <span class="hover">H</span><span class="hover">e</span
+        ><span class="hover">y</span>, <span class="hover">I</span>
+        <span class="hover">a</span><span class="hover">m</span>
+        <span class="hover">T</span><span class="hover">a</span
+        ><span class="hover">v</span><span class="hover">a</span
+        ><span class="hover">r</span><span class="hover">n</span>,
+      </h1>
+      <p>And I'm a <span class="new"></span></p>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Want to hire me?</h2>
+        <p>contact me on any of the following</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://www.instagram.com/kxllnsh/"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-instagram"></i> Instagram</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/Kxllnsh"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://www.linkedin.com/in/tavarn-henry-a730211b0/"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-linkedin-in"></i> Linkedin</a
+        >
+      </div>
+    </section>
+    <!--------------- End Welcome Section----------------------->
+
+    <!--------------Contact Section----------------------->
+    <section id="contactinfo">
+      <div class="container">
+        <h1 class="contact_header">Send a Message</h1>
+        <p><em> fill out the info below.</em></p>
+        <div class="form">
+          <form action="Form">
+            <div class="input-data">
+              <input
+                type="email"
+                id="Email"
+                placeholder="email"
+                autocomplete="off"
+                required
+              />
+              <br />
+              <textarea
+                name="message"
+                id="textarea"
+                cols="1"
+                rows="1"
+                placeholder="type your message (optional)"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn"><span></span>Submit</button>
+            <p>
+              <em
+                >reply varies, depending on the volume of messages received.</em
+              >
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--------------- End Contact Section----------------------->
+
+    <!--------------------Footer--------------------------->
+    <footer>
+      <p>
+        &copy; Created by
+        <a href="https://www.twitch.tv/kxllnshfc" target="_blank"
+          >Tavarn Henry <i class="fab fa-tumblr"></i
+        ></a>
+      </p>
+    </footer>
+    <!------------------End Footer----------------------------->
+
+    <!-------------------Scripts--------------------------->
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!------------------- End Scripts-------------------------->
+  </body>
+</html>
+<!------------------End Html--------------------->
